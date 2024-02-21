@@ -10,11 +10,11 @@ services:
     volumes:
       - ./data:/app/coze-discord-proxy/data
     environment:
-      - USER_ID=1099*********055  # 必须修改为我们discord用户的ID
-      - USER_AUTHORIZATION=MTA5OTg5N************uIfytxUgJfmaXUBHVI  # 必须修改为我们discord用户的授权密钥
-      - BOT_TOKEN=MTE5OTk2xxxxxxxxxxxxxxrwUrUWNbG63w  # 必须修改为监听消息的Bot-Token
-      - GUILD_ID=119xxxxxxxx796  # 必须修改为两个机器人所在的服务器ID
-      - COZE_BOT_ID=119xxxxxxxx7  # 必须修改为由coze托管的机器人ID
-      - CHANNEL_ID=119xxxxxx24  # 默认频道-(目前版本下该参数仅用来活跃机器人)
-      - PROXY_SECRET=123456  # [可选]接口密钥-修改此行为请求头校验的值(多个请以,分隔)
+      - USER_ID=1089401196739039303  # 必须修改为我们discord用户的ID
+      - USER_AUTHORIZATION=MTA4OTQwMTE5NjczOTAzOTMwMw.GNXXPc.HKiyhXx0EUO8wipK3gmIL_vCsq3eZMmNQEmPWM  # 必须修改为我们discord用户的授权密钥
+      - BOT_TOKEN=MTIwNDgxOTk4MjQ1MDU2NTE0MQ.G2IB0j.XL3o92Rg0Ys9AWh7r0RJtzRPOp3C0sF-T7v940  # 必须修改为监听消息的Bot-Token
+      - GUILD_ID=1209874151616028763  # 必须修改为两个机器人所在的服务器ID
+      - COZE_BOT_ID=1209874719675912192  # 必须修改为由coze托管的机器人ID
+      - CHANNEL_ID=1209874151616028769  # 默认频道-(目前版本下该参数仅用来活跃机器人)
+      - PROXY_SECRET=sk-123,sk-456,sk-789  # [可选]接口密钥-修改此行为请求头校验的值(多个请以,分隔)
       - TZ=Asia/Shanghai
